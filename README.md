@@ -25,7 +25,7 @@
 
 # Resumo  
 
-Este trabalho visa explorar e propor um modelo de redes neurais tipo MLP destinado à predição da energia total e de formação de nanopartículas de prata, identificando quais os melhores hiperparâmetros para serem usados na rede neural que resultarão numa boa predição. Utilizando dados como número de átomos, raio máximo e mínimos das partículas para encontrar correlações entre diversas condições. O objetivo principal é utilizar modelos de predição a partir das análises de dados de nanopartículas, comparando-os, para predizer sua energia total e de formação. 
+Este trabalho visa explorar e propor um modelo de algoritmo genético destinado à otimização dos hiperparâmetros na rede neural construída para predição da energia total e de formação de nanopartículas de cobre, identificando quais os melhores hiperparâmetros para serem usados na rede neural que resultarão numa boa predição. Utilizando dados como número de átomos, raio máximo e mínimos das partículas para encontrar correlações entre diversas condições. O objetivo principal é utilizar modelos de predição a partir das análises de dados de nanopartículas, comparando-os, para predizer sua energia total e de formação. 
 
 Destaca-se que este projeto é desenvolvido como produto da disciplina de Redes Neurais, integrante do curso de Bacharelado em Ciência e Tecnologia, oferecido pela Universidade Ilum - Escola de Ciência, instituição acadêmica vinculada ao CNPEM (Centro Nacional de Pesquisa em Energia e Materiais). 
 

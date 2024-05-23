@@ -3,7 +3,7 @@
 </div>
 
 <div align="center">
-  <h2> Predição de Energia Total e de Formação de Nanopartículas de Cobre Utilizando Deeplearning </h2>
+  <h2> Aplicação de Algoritmos Genéticos na Otimização de Hiperparâmetros em Modelos de Deep Learning para Predição de Energia de Total e de Formação de Nanopartículas de Cobre </h2>
 </div>
 
 <div align="center">

@@ -68,7 +68,7 @@ Os nanomateriais possuem uma variedade de aplicações, incluindo catálise, ima
 
 Com essas questões, foi feita uma rede neural anteriormente para a predição dos atributos de saída (valor da energia total e de formação da nanopartícula) [13]. Entretanto, observou-se que a métrica RMSE (Root Mean Square Error) utilizada nessa rede neural não era o ideal, informando que a performance deste modelo de redes neurais não está bom/preciso o suficiente.
 
-Uma forma de melhorar estes parâmetros é fazendo uma otimização dos hiperparâmetros do modelo. A ciência que pode ser utilizada para esta problemática são ao Algorítmos Genéticos. (falar sobre algortimos geneticos e como eles trabalham)
+Uma forma de melhorar estes parâmetros é fazendo uma otimização dos hiperparâmetros do modelo. A ciência que pode ser utilizada para esta problemática são ao Algorítmos Genéticos. (falar sobre algortimos geneticos e como eles trabalham) A ciência que é utilizada para esta problemática é a Rede Neural tipo MLP (multilayer perceptron) ou, em português, perceptron multicamadas, que é uma rede neural artificial moderna de alimentação direta (feedforward). Essa rede é composta por várias camadas, incluindo uma camada de entrada, uma ou mais camadas ocultas e uma camada de saída.[5]
 
 A rede recebe os dados na camada de entrada com seus respectivos pesos. Cada neurônio possui uma função de ativação e um viez ao qual realizará cáculos. Durante o processo de aprendizado, os pesos de conexão na rede são ajustados após o processamento de cada dado com base na quantidade de erro na saída em comparação com o resultado esperado. O qual permite que um sistema aprenda e melhore de forma autônoma, sem ser programado explicitamente, alimentando-o com grandes quantidades de dados. [5]
 

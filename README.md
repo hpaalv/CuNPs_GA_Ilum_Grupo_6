@@ -25,15 +25,11 @@
 
 # Resumo  
 
-Este trabalho visa explorar e propor um modelo de algoritmo genético destinado à otimização dos hiperparâmetros na rede neural construída para predição da energia total e de formação de nanopartículas de cobre anteriormente [13], identificando quais os melhores hiperparâmetros para serem usados na rede neural que resultarão em uma boa predição.
+Este trabalho visa explorar e propor um modelo de algoritmo genético destinado à otimização dos hiperparâmetros de uma rede neural, identificando quais os melhores hiperparâmetros para serem usados na rede neural que resultarão em uma boa predição. Neste caso será utilizado como exemplo a rede neural construída anteriormente para predição da energia total e de formação de nanopartículas de cobre [13].
 
 Destaca-se que este projeto é desenvolvido como produto da disciplina de Redes Neurais, integrante do curso de Bacharelado em Ciência e Tecnologia, oferecido pela Universidade Ilum - Escola de Ciência, instituição acadêmica vinculada ao CNPEM (Centro Nacional de Pesquisa em Energia e Materiais). 
 
 # Glossário
-
-Nanomateriais: Materiais muito pequenos que têm usos especiais em muitas áreas, como medicina e eletrônicos.
-
-Rede Neural tipo MLP (Multilayer Perceptron): Um tipo de computador que aprende com exemplos, composto por várias camadas de "neurônios" que se comunicam entre si.
 
 Dataset: Um conjunto de dados organizados em uma tabela.
 
@@ -43,13 +39,31 @@ Root Mean Squared Error (RMSE): Uma versão mais fácil de entender do MSE, é c
 
 Variância de Inflação (VIF): Uma medida que ajuda a entender se as informações em um conjunto de dados são redundantes.
 
-Função de Ativação ReLU (Rectified Linear Unit): Uma regra que diz quando os "neurônios" em um computador neural devem acender.
-
-Backpropagation: Uma maneira de ensinar um computador neural ajustando gradualmente os pesos entre os "neurônios".
-
 Logaritmização: Uma transformação que ajusta os valores dos dados para uma escala diferente, útil para tornar os dados mais fáceis de trabalhar.
 
 Normalização: Uma técnica que coloca os valores dos dados em uma faixa específica, para facilitar o treinamento de modelos.
+
+Função objetivo: Uma função que recebe um indivíduo e retorna o seu valor de aptidão.
+
+Minimização: Processo de encontrar o valor mínimo de uma função objetivo.
+
+Indivíduo: Um candidato para a solução do problema.
+
+População: Um conjunto de candidatos para a solução do problema.
+
+Gene: Um parâmetro que pertence a um indivíduo.
+
+Geração: Cada população em busca genética. A primeira geração é aleatória, e as outras são formadas por seleção, cruzamento e mutação da geração anterior.
+
+Seleção: Processo onde utiliza-se o valor de aptidão dos indivíduos para selecionar quais irão passar seus genes para a geração seguinte.
+
+Cruzamento: Processo onde o material genético de indivíduos selecionados é misturado.
+
+Mutação: Processo onde os genes dos indivíduos selecionados têm uma chance de alterar seu valor.
+
+Hall da Fama: Conjunto dos n indivíduos que obtiveram os melhores valores de aptidão durante o processo de busca.
+
+
 
 # Importando Dados 
 

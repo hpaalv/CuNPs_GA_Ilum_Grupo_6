@@ -82,11 +82,21 @@ Os nanomateriais possuem uma variedade de aplicações, incluindo catálise, ima
 
 Com essas questões, foi feita uma rede neural anteriormente para a predição dos atributos de saída (valor da energia total e de formação da nanopartícula) [13]. Entretanto, observou-se que a métrica RMSE (Root Mean Square Error) utilizada nessa rede neural não era o ideal, informando que a performance deste modelo de redes neurais não está bom/preciso o suficiente.
 
-Uma forma de melhorar estes parâmetros é fazendo uma otimização dos hiperparâmetros do modelo. A ciência que pode ser utilizada para esta problemática são ao Algorítmos Genéticos. Essa técnica de busca e otimização basea-se nos princípios da seleção natural e evolução biológica, promovendo soluções aproximadas para problemas complexos que podem ser difíceis de resolver usando métodos tradicionais.
+Uma forma de melhorar estes parâmetros é fazendo uma otimização dos hiperparâmetros do modelo. A ciência que pode ser utilizada para esta problemática é os Algorítmos Genéticos. Essa técnica de busca e otimização basea-se nos princípios da seleção natural e evolução biológica, sendo uma ótima ferramenta para solucionar problemas de otimização.
 
-A rede recebe os dados na camada de entrada com seus respectivos pesos. Cada neurônio possui uma função de ativação e um viez ao qual realizará cáculos. Durante o processo de aprendizado, os pesos de conexão na rede são ajustados após o processamento de cada dado com base na quantidade de erro na saída em comparação com o resultado esperado. O qual permite que um sistema aprenda e melhore de forma autônoma, sem ser programado explicitamente, alimentando-o com grandes quantidades de dados. [5] (explicar como entra o ag nisso)
+]]]]]]]]A rede recebe os dados na camada de entrada com seus respectivos pesos. Cada neurônio possui uma função de ativação e um viez ao qual realizará cáculos. Durante o processo de aprendizado, os pesos de conexão na rede são ajustados após o processamento de cada dado com base na quantidade de erro na saída em comparação com o resultado esperado. O qual permite que um sistema aprenda e melhore de forma autônoma, sem ser programado explicitamente, alimentando-o com grandes quantidades de dados. [5] 
 
-Script é uma  ferramenta para automatizar processos na interface do usuário. Os scripts podem executar os mesmos tipos de ações que podem ser executadas com o mouse ou teclado e podem ser utilizados para automatizar tarefas que seriam altamente repetitivas ou que demorariam muito tempo para serem executadas manualmente. [14]
+O algoritmo genético funciona nos seguintes passos:
+1. Criação da população inicial (que será aleatória, de acordo com os dados do dataset);
+2. Cálculo da função objetivo para todos os membros da população inicial e atualização do Hall da Fama;
+3. Seleção dos indivíduos (que seguem para a geração seguinte);
+4. Cruzamento dos indivíduos selecionados (gerando troca de material genético entre os indivíduos);
+5. Mutação dos indivíduos da população recém-criada (possibilidade de trazer informação nova ao sistema);
+6. Cálculo da função objetivo para todos os membros da população recém-criada e atualização do Hall da Fama;
+7. Checagem de critérios de parada (caso não tenham sido atendidos, retorna-se ao passo 3);
+8. Retorno ao usuário do Hall da Fama.
+
+Script é uma ferramenta para automatizar processos na interface do usuário. Os scripts podem executar os mesmos tipos de ações que podem ser executadas com o mouse ou teclado e podem ser utilizados para automatizar tarefas que seriam altamente repetitivas ou que demorariam muito tempo para serem executadas manualmente. [14]
 
 Esses dados podem ser coletados de diversas formas possíveis, variando de acordo com sua finalidade e recursos para a pesquisa. Entretanto, algo em comum com todo qualquer tipo de dado é que eles são armazenados em dataset. 
 

@@ -86,9 +86,9 @@ Com essas questões, foi feita uma rede neural anteriormente para a predição d
 
 Uma forma de melhorar estes parâmetros é fazendo uma otimização dos hiperparâmetros do modelo. A ciência que pode ser utilizada para esta problemática é os Algorítmos Genéticos. Essa técnica de busca e otimização basea-se nos princípios da seleção natural e evolução biológica, sendo uma ótima ferramenta para solucionar problemas de otimização.
 
-]]]]]]]]A rede recebe os dados na camada de entrada com seus respectivos pesos. Cada neurônio possui uma função de ativação e um viez ao qual realizará cáculos. Durante o processo de aprendizado, os pesos de conexão na rede são ajustados após o processamento de cada dado com base na quantidade de erro na saída em comparação com o resultado esperado. O qual permite que um sistema aprenda e melhore de forma autônoma, sem ser programado explicitamente, alimentando-o com grandes quantidades de dados. [5] 
+A rede neural recebe os dados na camada de entrada com seus respectivos pesos. Cada neurônio possui uma função de ativação e um viez ao qual realizará cáculos. Durante o processo de aprendizado, os pesos de conexão na rede são ajustados após o processamento de cada dado com base na quantidade de erro na saída em comparação com o resultado esperado. O qual permite que um sistema aprenda e melhore de forma autônoma, sem ser programado explicitamente, alimentando-o com grandes quantidades de dados. [5] 
 
-O algoritmo genético funciona nos seguintes passos:
+O algoritmo genético funciona nos seguintes passos [15]:
 1. Criação da população inicial (que será aleatória, de acordo com os dados do dataset);
 2. Cálculo da função objetivo para todos os membros da população inicial e atualização do Hall da Fama;
 3. Seleção dos indivíduos (que seguem para a geração seguinte);

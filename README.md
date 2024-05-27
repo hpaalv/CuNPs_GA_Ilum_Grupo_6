@@ -33,9 +33,9 @@ Destaca-se que este projeto é desenvolvido como produto da disciplina de Redes 
 
 Dataset: Um conjunto de dados organizados em uma tabela.
 
-Mean Squared Error (MSE): é uma métrica utilizada para avaliar a precisão de um modelo de regressão.
+Mean Squared Error (MSE): É uma métrica utilizada para avaliar a precisão de um modelo de regressão.
 
-Root Mean Squared Error (RMSE): é uma métrica utilizada para avaliar a precisão de um modelo de regressão. Resulta em um valor que está na mesma unidade dos valores do target.
+Root Mean Squared Error (RMSE): É uma métrica utilizada para avaliar a precisão de um modelo de regressão. Resulta em um valor que está na mesma unidade dos valores do target.
 
 Variância de Inflação (VIF): Uma medida que ajuda a entender se as informações em um conjunto de dados são redundantes.
 
@@ -49,9 +49,9 @@ Minimização: Processo de encontrar o valor mínimo de uma função objetivo.
 
 Indivíduo: Um candidato para a solução do problema.
 
-População: Um conjunto de candidatos para a solução do problema.
-
 Gene: Um parâmetro que pertence a um indivíduo.
+
+População: Um conjunto de candidatos para a solução do problema.
 
 Geração: Cada população em busca genética. A primeira geração é aleatória, e as outras são formadas por seleção, cruzamento e mutação da geração anterior.
 
@@ -183,4 +183,4 @@ https://www.deeplearningbook.com.br/funcao-deativacao/#:~:text=ReLU%20é%20a%20f
 
 [14] Visão geral de script. Disponível em: <https://www.ibm.com/docs/pt-br/spss-modeler/18.4.0?topic=language-scripting-overview>. Acesso em: 27 maio. 2024.
 
-‌
+‌[15] Cassar, D. (2024). ATP-303 GA 2.3 - Notebook algoritmo genético [Notebook Jupyter]. Arquivo pessoal.

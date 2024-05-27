@@ -74,6 +74,8 @@ Hall da Fama: Conjunto dos n indivíduos que obtiveram os melhores valores de ap
 
 OBS.: O dataset utilizado e a lista com todos os atributos presentes no dataset estão armazenados neste repositório em arquivos intitulados "mlp_final.ipynb" e "Cu_nanoparticle_headerlist.pdf", respectivamente.
 
+
+
 # Introdução
 
 Materiais em escala nanométrica exibem características distintas em comparação com materiais em escalas macrométricas, devido a uma série de fatores, incluindo a superfície exposta dos materiais. Em escalas nanométricas, a relação entre área de superfície e volume é amplificada, tornando a superfície de contato proporcionalmente maior em relação ao volume do material. Essa proporção aumentada da superfície confere propriedades aos materiais nanoestruturados. [2]
@@ -96,13 +98,9 @@ O algoritmo genético funciona nos seguintes passos:
 7. Checagem de critérios de parada (caso não tenham sido atendidos, retorna-se ao passo 3);
 8. Retorno ao usuário do Hall da Fama.
 
-Script é uma ferramenta para automatizar processos na interface do usuário. Os scripts podem executar os mesmos tipos de ações que podem ser executadas com o mouse ou teclado e podem ser utilizados para automatizar tarefas que seriam altamente repetitivas ou que demorariam muito tempo para serem executadas manualmente. [14]
+Para automatizar processos na interface do usuário, foi implementado uma ferramenta poderosa para isso: os scripts. Eles podem executar os mesmos tipos de ações que podem ser executadas com o mouse ou teclado e podem ser utilizados para automatizar tarefas que seriam altamente repetitivas ou que demorariam muito tempo para serem executadas manualmente. [14]
 
-Esses dados podem ser coletados de diversas formas possíveis, variando de acordo com sua finalidade e recursos para a pesquisa. Entretanto, algo em comum com todo qualquer tipo de dado é que eles são armazenados em dataset. 
 
-Dataset é um conjunto de dados estruturados em uma tabela, contendo descrições específicas de seus atributos e arquivos significativos para o conjunto. [6] Com o conjunto de dados, é possível extrair informações necessárias para a aplicação/manipulação desejada.
-
-A escolha desse tipo de dataset permite uma abordagem multidisciplinar, integrando conhecimentos, sem perder a importância científica proposta pelo trabalho final.
 
 # Metodologia
 

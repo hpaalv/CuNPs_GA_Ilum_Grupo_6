@@ -25,7 +25,7 @@
 
 # Resumo  
 
-Este trabalho visa explorar e propor um modelo de algoritmo genético destinado à otimização dos hiperparâmetros na rede neural construída para predição da energia total e de formação de nanopartículas de cobre anteriormente [13], identificando quais os melhores hiperparâmetros para serem usados na rede neural que resultarão em uma boa predição. Utilizando dados como número de átomos, raio máximo e mínimos das partículas para encontrar correlações entre diversas condições. O objetivo principal é utilizar modelos de predição a partir das análises de dados de nanopartículas, comparando-os, para predizer sua energia total e de formação. 
+Este trabalho visa explorar e propor um modelo de algoritmo genético destinado à otimização dos hiperparâmetros na rede neural construída para predição da energia total e de formação de nanopartículas de cobre anteriormente [13], identificando quais os melhores hiperparâmetros para serem usados na rede neural que resultarão em uma boa predição.
 
 Destaca-se que este projeto é desenvolvido como produto da disciplina de Redes Neurais, integrante do curso de Bacharelado em Ciência e Tecnologia, oferecido pela Universidade Ilum - Escola de Ciência, instituição acadêmica vinculada ao CNPEM (Centro Nacional de Pesquisa em Energia e Materiais). 
 
@@ -68,9 +68,11 @@ Os nanomateriais possuem uma variedade de aplicações, incluindo catálise, ima
 
 Com essas questões, foi feita uma rede neural anteriormente para a predição dos atributos de saída (valor da energia total e de formação da nanopartícula) [13]. Entretanto, observou-se que a métrica RMSE (Root Mean Square Error) utilizada nessa rede neural não era o ideal, informando que a performance deste modelo de redes neurais não está bom/preciso o suficiente.
 
-Uma forma de melhorar estes parâmetros é fazendo uma otimização dos hiperparâmetros do modelo. A ciência que pode ser utilizada para esta problemática são ao Algorítmos Genéticos. (falar sobre algortimos geneticos e como eles trabalham) A ciência que é utilizada para esta problemática é a Rede Neural tipo MLP (multilayer perceptron) ou, em português, perceptron multicamadas, que é uma rede neural artificial moderna de alimentação direta (feedforward). Essa rede é composta por várias camadas, incluindo uma camada de entrada, uma ou mais camadas ocultas e uma camada de saída.[5]
+Uma forma de melhorar estes parâmetros é fazendo uma otimização dos hiperparâmetros do modelo. A ciência que pode ser utilizada para esta problemática são ao Algorítmos Genéticos. Essa técnica de busca e otimização basea-se nos princípios da seleção natural e evolução biológica, promovendo soluções aproximadas para problemas complexos que podem ser difíceis de resolver usando métodos tradicionais.
 
-A rede recebe os dados na camada de entrada com seus respectivos pesos. Cada neurônio possui uma função de ativação e um viez ao qual realizará cáculos. Durante o processo de aprendizado, os pesos de conexão na rede são ajustados após o processamento de cada dado com base na quantidade de erro na saída em comparação com o resultado esperado. O qual permite que um sistema aprenda e melhore de forma autônoma, sem ser programado explicitamente, alimentando-o com grandes quantidades de dados. [5]
+A rede recebe os dados na camada de entrada com seus respectivos pesos. Cada neurônio possui uma função de ativação e um viez ao qual realizará cáculos. Durante o processo de aprendizado, os pesos de conexão na rede são ajustados após o processamento de cada dado com base na quantidade de erro na saída em comparação com o resultado esperado. O qual permite que um sistema aprenda e melhore de forma autônoma, sem ser programado explicitamente, alimentando-o com grandes quantidades de dados. [5] (explicar como entra o ag nisso)
+
+Script é uma  ferramenta para automatizar processos na interface do usuário. Os scripts podem executar os mesmos tipos de ações que podem ser executadas com o mouse ou teclado e podem ser utilizados para automatizar tarefas que seriam altamente repetitivas ou que demorariam muito tempo para serem executadas manualmente. [14]
 
 Esses dados podem ser coletados de diversas formas possíveis, variando de acordo com sua finalidade e recursos para a pesquisa. Entretanto, algo em comum com todo qualquer tipo de dado é que eles são armazenados em dataset. 
 
@@ -112,21 +114,17 @@ Por fim, a rede com melhor arquitetura é selecionada e, treinada, novamente por
 
 # Resultados e Discussões
 
-Após o treinamento e teste de diferentes arquiteturas de redes neurais MLP para modelagem de nanomateriais, observamos resultados promissores em termos de desempenho. Utilizamos uma variedade de arquiteturas, ajustando o número de camadas e neurônios em cada camada para encontrar a configuração mais adequada.
+(corrigir em prol dos ga) Após o treinamento e teste de diferentes arquiteturas de redes neurais MLP para modelagem de nanomateriais, observamos resultados promissores em termos de desempenho. Utilizamos uma variedade de arquiteturas, ajustando o número de camadas e neurônios em cada camada para encontrar a configuração mais adequada.
 
-Ao fim dos testes, observamos consistentemente bons valores de RMSE (Root Mean Square Error), indicando que nossos modelos foram capazes de fazer previsões precisas em relação aos dados de teste.
-
-Esses resultados validam a eficácia da abordagem de rede neural MLP para modelagem de nanomateriais e sugerem que esta técnica pode ser aplicada com sucesso em uma variedade de problemas relacionados aos materiais em escala nanométrica.
-
-No entanto, é importante ressaltar que a avaliação dos resultados é apenas um primeiro passo na compreensão abrangente do comportamento dos nanomateriais. Pesquisas futuras podem se concentrar em explorar outras métricas de desempenho, investigar a interpretabilidade dos modelos desenvolvidos e realizar validações adicionais para garantir a robustez e generalização dos resultados.
+Esses resultados validam a eficácia da abordagem de algoritmos genéticos para problemas de otimização e sugerem que esta técnica pode ser aplicada com sucesso em uma variedade de problemas relacionados a modelos de predição de materiais em escala nanométrica.
 
 # Conclusão
 
 Nesta revisão, exploramos a importância dos nanomateriais e sua vasta gama de aplicações em diversas áreas, desde a catalisação até a medicina. A manipulação precisa das propriedades dos nanomateriais tem sido uma área de pesquisa em crescimento devido ao seu potencial para revolucionar tecnologias existentes e criar novas soluções para desafios atuais.
 
-Para entender melhor e otimizar as propriedades dos nanomateriais, destacamos o uso da Rede Neural tipo MLP como uma ferramenta. A capacidade das redes neurais de aprender padrões complexos nos dados e fazer previsões precisas as torna ideais para modelar e prever o comportamento de materiais em escala nanométrica. Através do treinamento da MLP com conjuntos de dados adequados, podemos aprimorar nossa compreensão dos fatores que influenciam as propriedades dos nanomateriais e otimizar seu design para aplicações específicas.
+Após obter o dado de métrica RMSE da Rede Neural MLP utilizada anteriormente, destacou-se o uso de Algoritmos Genéticos como uma ferramenta de otimização para minimizar essa métrica. Ao aplicar algoritmos genéticos para ajustar os hiperparâmetros da rede neural, pode-se explorar de forma eficiente o espaço de busca e encontrar boas configurações que resultem em previsões mais precisas e uma melhor compreensão dos fatores que influenciam as propriedades dos nanomateriais na rede neural. Essa abordagem nos permite não apenas melhorar o desempenho da rede neural, mas também otimizar o design dos nanomateriais para aplicações específicas, maximizando assim o seu potencial em diversas áreas da Ciência e da Tecnologia.
 
-Em suma, o estudo e a aplicação da Rede Neural MLP em conjunto com a manipulação de datasets estruturados representam uma abordagem poderosa e interdisciplinar para avançar nosso entendimento e aplicação dos nanomateriais. Esperamos que este trabalho inspire mais pesquisas e investimentos na área, levando a avanços significativos e inovações em nanotecnologia e ciência dos materiais.
+Em suma, a utilização de algoritmos genéticos para minimizar a métrica RMSE de uma rede neural aplicada a nanomateriais, em conjunto com a manipulação de datasets estruturados, representa uma abordagem poderosa e interdisciplinar para avançar nosso entendimento e aplicação desses materiais em escala nanométrica. Esperamos que este trabalho inspire mais pesquisas e investimentos na área, levando a avanços significativos e inovações em nanotecnologia e ciência dos materiais.
 
 # Referências
 
@@ -158,3 +156,7 @@ https://www.deeplearningbook.com.br/funcao-deativacao/#:~:text=ReLU%20é%20a%20f
 [12] Métricas para Regressão: Entendendo as métricas R², MAE, MAPE, MSE e RMSE | medium. Disponível em: <https://medium.com/data-hackers/prevendo-n%C3%BAmeros-entendendo-m%C3%A9tricas-de-regress%C3%A3o-35545e011e70>. Acesso em: 03 mai. 2024.
 
 [13] HPAALV. hpaalv/CuNPs_MLP_Ilum_Grupo_6. Disponível em: <https://github.com/hpaalv/CuNPs_MLP_Ilum_Grupo_6>. Acesso em: 23 maio. 2024.
+
+[14] Visão geral de script. Disponível em: <https://www.ibm.com/docs/pt-br/spss-modeler/18.4.0?topic=language-scripting-overview>. Acesso em: 27 maio. 2024.
+
+‌

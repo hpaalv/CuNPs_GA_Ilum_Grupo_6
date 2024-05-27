@@ -33,9 +33,9 @@ Destaca-se que este projeto é desenvolvido como produto da disciplina de Redes 
 
 Dataset: Um conjunto de dados organizados em uma tabela.
 
-Mean Squared Error (MSE): Uma maneira de medir quão perto as previsões de um modelo estão dos valores reais.
+Mean Squared Error (MSE): é uma métrica utilizada para avaliar a precisão de um modelo de regressão.
 
-Root Mean Squared Error (RMSE): Uma versão mais fácil de entender do MSE, é como o MSE, mas em uma escala mais fácil de interpretar.
+Root Mean Squared Error (RMSE): é uma métrica utilizada para avaliar a precisão de um modelo de regressão. Resulta em um valor que está na mesma unidade dos valores do target.
 
 Variância de Inflação (VIF): Uma medida que ajuda a entender se as informações em um conjunto de dados são redundantes.
 

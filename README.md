@@ -98,7 +98,7 @@ O algoritmo genético funciona nos seguintes passos:
 7. Checagem de critérios de parada (caso não tenham sido atendidos, retorna-se ao passo 3);
 8. Retorno ao usuário do Hall da Fama.
 
-Para automatizar processos na interface do usuário, foi implementado uma ferramenta poderosa para isso: os scripts. Eles podem executar os mesmos tipos de ações que podem ser executadas com o mouse ou teclado e podem ser utilizados para automatizar tarefas que seriam altamente repetitivas ou que demorariam muito tempo para serem executadas manualmente. [14]
+Para automatizar processos na interface do usuário, foi implementada uma ferramenta poderosa: os scripts. Eles podem realizar todas as ações que seriam feitas com o mouse ou teclado, tornando-se ideais para automatizar tarefas altamente repetitivas ou demoradas que, de outra forma, exigiriam muito tempo e esforço manual. [14]
 
 
 

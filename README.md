@@ -68,6 +68,7 @@ Hall da Fama: Conjunto dos n indivíduos que obtiveram os melhores valores de ap
 # Importando Dados 
 
 * Baixe o arquivo intitulado "mlp_final.ipynb" desse github.
+* Baixe o arquivo intitulado "used_func.py" desse github e colocar na mesma pasta que o "mlp_final.ipynb".
 * Acesse o link: <https://data.csiro.au/collection/csiro:42598>.[1].
 * Baixe o arquivo com o dataset e coloque-o na mesma pasta que o arquivo "mlp_final.ipynb".
 * Não é necessário renomear o arquivo de dados.
@@ -84,7 +85,7 @@ Os nanomateriais possuem uma variedade de aplicações, incluindo catálise, ima
 
 Com essas questões, foi feita uma rede neural anteriormente para a predição dos atributos de saída (valor da energia total e de formação da nanopartícula) [13]. Entretanto, observou-se que a métrica RMSE (Root Mean Square Error) utilizada nessa rede neural não era o ideal, informando que a performance deste modelo de redes neurais não está bom/preciso o suficiente.
 
-Uma forma de melhorar estes parâmetros é fazendo uma otimização dos hiperparâmetros do modelo. A ciência que pode ser utilizada para esta problemática é os Algoritmos Genéticos. Essa técnica de busca e otimização baseia-se nos princípios da seleção natural e evolução biológica, sendo uma ótima ferramenta para solucionar problemas de otimização.
+Uma forma de melhorar estes parâmetros é fazendo uma otimização dos hiperparâmetros do modelo. A ciência que pode ser utilizada para esta problemática é a dos Algoritmos Genéticos. Essa técnica de busca e otimização baseia-se nos princípios da seleção natural e evolução biológica, sendo uma ótima ferramenta para solucionar problemas de otimização.
 
 A rede neural recebe os dados na camada de entrada com seus respectivos pesos. Cada neurônio possui uma função de ativação e um viés ao qual realizará cálculos. Durante o processo de aprendizado, os pesos de conexão na rede são ajustados após o processamento de cada dado com base na quantidade de erro na saída em comparação com o resultado esperado. O qual permite que um sistema aprenda e melhore de forma autônoma, sem ser programado explicitamente, alimentando-o com grandes quantidades de dados. [5] 
 

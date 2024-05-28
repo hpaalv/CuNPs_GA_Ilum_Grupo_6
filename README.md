@@ -90,7 +90,7 @@ Uma forma de melhorar estes parâmetros é fazendo uma otimização dos hiperpar
 A rede neural recebe os dados na camada de entrada com seus respectivos pesos. Cada neurônio possui uma função de ativação e um viés ao qual realizará cálculos. Durante o processo de aprendizado, os pesos de conexão na rede são ajustados após o processamento de cada dado com base na quantidade de erro na saída em comparação com o resultado esperado. O qual permite que um sistema aprenda e melhore de forma autônoma, sem ser programado explicitamente, alimentando-o com grandes quantidades de dados. [5] 
 
 O Algoritmo Genético funciona nos seguintes passos [15]:
-1. Criação da população inicial (que será aleatória, de acordo com os dados do dataset);
+1. Criação da população inicial (que será aleatória);
 2. Cálculo da função objetivo para todos os membros da população inicial e atualização do Hall da Fama;
 3. Seleção dos indivíduos (que seguem para a geração seguinte);
 4. Cruzamento dos indivíduos selecionados (gerando troca de material genético entre os indivíduos);

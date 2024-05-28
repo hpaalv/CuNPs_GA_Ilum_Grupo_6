@@ -136,7 +136,7 @@ Por fim, a rede com melhor arquitetura é selecionada e, treinada, novamente por
 
 # Resultados e Discussões
 
-(corrigir em prol dos ga) Após o treinamento e teste de diferentes arquiteturas de redes neurais MLP para modelagem de nanomateriais, observamos resultados promissores em termos de desempenho. Utilizamos uma variedade de arquiteturas, ajustando o número de camadas e neurônios em cada camada para encontrar a configuração mais adequada.
+Após o treinamento e teste de diferentes arquiteturas da Rede Neural MLP para modelagem de nanomateriais, aplicando o Algoritmo Genético para minimização de seus hiperparâmetros, observamos resultados promissores em termos de melhores valores da métrica de RMSE. Utilizamos uma variedade de arquiteturas, ajustando o tipo de função de ativação, tipo de otimizador, número de camadas e número de neurônios em cada camada para encontrar a configuração mais adequada.
 
 Esses resultados validam a eficácia da abordagem de Algoritmos Genéticos para problemas de otimização e sugerem que esta técnica pode ser aplicada com sucesso em uma variedade de problemas relacionados a modelos de predição de materiais em escala nanométrica.
 

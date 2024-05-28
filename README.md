@@ -138,7 +138,7 @@ Com os hiperparâmetros definidos para a Rede Neural, agora inicia-se o código 
 As funções relacionadas ao Algoritmo Genético estão no script. 
 1. Primeiro, tem-se a função "cria_candidato" para a criação de candidatos aleatórios para a solução de nosso problema, sendo os indivíduos da nossa primeira geração. Cada indivíduo terá 4 genes: o tipo de função de ativação, o tipo de otimizador, número de neurônios na primeira camada e número de neurônios na segunda camada, respectivamente.
 2. Tem-se a função "populacao" que vai gerar uma lista contendo a população com n indivíduos desejados.
-3. A função "funcao_objetivo" é a função que calculará o fitness de cada indivíduo na população junto com a Rede Neural MLP, sendo onde a MLP será rodada e já retornará a lista contendo as redes e seus valores de fitness.
+3. A função "funcao_objetivo" é a função que calculará o fitness de cada indivíduo na população junto com a Rede Neural MLP, onde a MLP será rodada e já retornará a lista contendo as redes e seus valores de fitness.
 4. Utilizando a função "selecao_torneio_min", será sorteado indivíduos para avaliar qual possui o menor valor de fitness e adicioná-los a uma lista.
 5. Com a função "cruzamento_uniforme", tem o código relacionado ao cruzamento uniforme aplicado neste Algoritmo Genético, onde é pego genes aleatórios da mãe e do pai para a formação dos indivíduos filhos.
 6. Função "mutacao_simples" que, com uma semente aleatória, irá mutar aleatoriamente um dos genes do indivíduo.

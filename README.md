@@ -25,7 +25,7 @@
 
 # Resumo  
 
-Este trabalho visa explorar e propor um modelo de algoritmo genético destinado à otimização dos hiperparâmetros de uma rede neural, identificando quais os melhores hiperparâmetros para serem usados na rede neural que resultarão em uma boa predição. Neste caso será utilizado como exemplo a rede neural construída anteriormente para predição da energia total e de formação de nanopartículas de cobre [13].
+Este trabalho visa explorar e propor um modelo de Algoritmo Genético destinado à otimização dos hiperparâmetros de uma rede neural, identificando quais os melhores hiperparâmetros para serem usados na rede neural que resultarão em uma boa predição. Neste caso será utilizado como exemplo a rede neural construída anteriormente para predição da energia total e de formação de nanopartículas de cobre [13].
 
 Destaca-se que este projeto é desenvolvido como produto da disciplina de Redes Neurais, integrante do curso de Bacharelado em Ciência e Tecnologia, oferecido pela Universidade Ilum - Escola de Ciência, instituição acadêmica vinculada ao CNPEM (Centro Nacional de Pesquisa em Energia e Materiais). 
 
@@ -88,7 +88,7 @@ Uma forma de melhorar estes parâmetros é fazendo uma otimização dos hiperpar
 
 A rede neural recebe os dados na camada de entrada com seus respectivos pesos. Cada neurônio possui uma função de ativação e um viez ao qual realizará cáculos. Durante o processo de aprendizado, os pesos de conexão na rede são ajustados após o processamento de cada dado com base na quantidade de erro na saída em comparação com o resultado esperado. O qual permite que um sistema aprenda e melhore de forma autônoma, sem ser programado explicitamente, alimentando-o com grandes quantidades de dados. [5] 
 
-O algoritmo genético funciona nos seguintes passos [15]:
+O Algoritmo Genético funciona nos seguintes passos [15]:
 1. Criação da população inicial (que será aleatória, de acordo com os dados do dataset);
 2. Cálculo da função objetivo para todos os membros da população inicial e atualização do Hall da Fama;
 3. Seleção dos indivíduos (que seguem para a geração seguinte);
@@ -138,15 +138,15 @@ Por fim, a rede com melhor arquitetura é selecionada e, treinada, novamente por
 
 (corrigir em prol dos ga) Após o treinamento e teste de diferentes arquiteturas de redes neurais MLP para modelagem de nanomateriais, observamos resultados promissores em termos de desempenho. Utilizamos uma variedade de arquiteturas, ajustando o número de camadas e neurônios em cada camada para encontrar a configuração mais adequada.
 
-Esses resultados validam a eficácia da abordagem de algoritmos genéticos para problemas de otimização e sugerem que esta técnica pode ser aplicada com sucesso em uma variedade de problemas relacionados a modelos de predição de materiais em escala nanométrica.
+Esses resultados validam a eficácia da abordagem de Algoritmos Genéticos para problemas de otimização e sugerem que esta técnica pode ser aplicada com sucesso em uma variedade de problemas relacionados a modelos de predição de materiais em escala nanométrica.
 
 # Conclusão
 
-Nesta revisão, exploramos a importância dos nanomateriais e sua vasta gama de aplicações em diversas áreas, desde a catalisação até a medicina. A manipulação precisa das propriedades dos nanomateriais tem sido uma área de pesquisa em crescimento devido ao seu potencial para revolucionar tecnologias existentes e criar novas soluções para desafios atuais.
+Nesta revisão, exploramos a importância de analisar a precisão das predições utilizando cada tipo de otimizador, analisando qual seria a melhor otimização para nosso problema: minimização dos hiperparâmetros.
 
-Após obter o dado de métrica RMSE da Rede Neural MLP utilizada anteriormente, destacou-se o uso de Algoritmos Genéticos como uma ferramenta de otimização para minimizar essa métrica. Ao aplicar algoritmos genéticos para ajustar os hiperparâmetros da rede neural, pode-se explorar de forma eficiente o espaço de busca e encontrar boas configurações que resultem em previsões mais precisas e uma melhor compreensão dos fatores que influenciam as propriedades dos nanomateriais na rede neural. Essa abordagem nos permite não apenas melhorar o desempenho da rede neural, mas também otimizar o design dos nanomateriais para aplicações específicas, maximizando assim o seu potencial em diversas áreas da Ciência e da Tecnologia.
+Após obter os dados de métrica RMSE da Rede Neural MLP utilizada anteriormente, destacamos o uso de Algoritmos Genéticos como uma ferramenta de otimização para minimizar essa métrica. Ao aplicar Algoritmos Genéticos para ajustar os hiperparâmetros da rede neural, pode-se explorar de forma eficiente o espaço de busca e encontrar boas configurações que resultem em previsões mais precisas e uma melhor compreensão dos fatores que influenciam as propriedades dos nanomateriais na rede neural. Essa abordagem nos permite não apenas melhorar o desempenho da rede neural, mas também otimizar o design dos nanomateriais para aplicações específicas, maximizando assim o seu potencial em diversas áreas da Ciência e da Tecnologia.
 
-Em suma, a utilização de algoritmos genéticos para minimizar a métrica RMSE de uma rede neural aplicada a nanomateriais, em conjunto com a manipulação de datasets estruturados, representa uma abordagem poderosa e interdisciplinar para avançar nosso entendimento e aplicação desses materiais em escala nanométrica. Esperamos que este trabalho inspire mais pesquisas e investimentos na área, levando a avanços significativos e inovações em nanotecnologia e ciência dos materiais.
+Em suma, a utilização de Algoritmos Genéticos para minimizar a métrica RMSE de uma rede neural aplicada a nanomateriais, em conjunto com a manipulação de datasets estruturados, representa uma abordagem poderosa e interdisciplinar para avançar nosso entendimento e aplicação desses materiais em escala nanométrica. Esperamos que este trabalho inspire mais pesquisas e investimentos na área, levando a avanços significativos e inovações em nanotecnologia e ciência dos materiais.
 
 # Referências
 

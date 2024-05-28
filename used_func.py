@@ -194,7 +194,10 @@ def funcao_objetivo(populacao, redes, otimizadores, NUM_DADOS_DE_ENTRADA,
         else:
             minha_mlp = MLP(NUM_DADOS_DE_ENTRADA, individuo, NUM_DADOS_DE_SAIDA)      #Criando a instância da classe da MLP
             
-            otimizador = optim.Adam(minha_mlp.parameters(), lr=TAXA_DE_APRENDIZADO)
+            otimizador_nome = individuo[1]  # Nome do otimizador está na segunda posição do indivíduo
+            otimizador_cls = otimizadores.get(otimizador_nome)  # Pega a classe do otimizador ou usa Adam como padrão
+            otimizador = otimizador_cls(minha_mlp.parameters(), lr=TAXA_DE_APRENDIZADO)
+            #otimizador = optim.Adam(minha_mlp.parameters(), lr=TAXA_DE_APRENDIZADO)
             minha_mlp.train()  # Definindo a ação para treino da MLP
 
             for epoca in range(NUM_EPOCAS):  # Treinando a MLP, passando por cada passo
@@ -207,7 +210,7 @@ def funcao_objetivo(populacao, redes, otimizadores, NUM_DADOS_DE_ENTRADA,
                 if loss.item() < individuo_mse:      #Salvando o MSE
                     individuo_mse = loss.item()
 
-            redes.append({'individuo': individuo, 'mse': individuo_mse})      #Salvando na memória a nova rede testada
+            redes.append({'individuo': individuo, 'mse': individuo_mse, 'mlp' : minha_mlp})      #Salvando na memória a nova rede testada
         
         individuo_rmse = individuo_mse**(1/2)      #Calulando o RMSE 
         fitness.append(individuo_rmse)      # Adiciona o RMSE do indivíduo (seja encontrado ou treinado) à lista de fitness

@@ -31,37 +31,37 @@ Destaca-se que este projeto é desenvolvido como produto da disciplina de Redes 
 
 # Glossário
 
-Dataset: Um conjunto de dados organizados em uma tabela.
+**Dataset:** Um conjunto de dados organizados em uma tabela.
 
-Mean Squared Error (MSE): É uma métrica utilizada para avaliar a precisão de um modelo de regressão.
+**Mean Squared Error (MSE):** É uma métrica utilizada para avaliar a precisão de um modelo de regressão.
 
-Root Mean Squared Error (RMSE): É uma métrica utilizada para avaliar a precisão de um modelo de regressão. Resulta em um valor que está na mesma unidade dos valores do target.
+**Root Mean Squared Error (RMSE):** É uma métrica utilizada para avaliar a precisão de um modelo de regressão. Resulta em um valor que está na mesma unidade dos valores do target.
 
-Variância de Inflação (VIF): Uma medida que ajuda a entender se as informações em um conjunto de dados são redundantes.
+**Variância de Inflação (VIF):** Uma medida que ajuda a entender se as informações em um conjunto de dados são redundantes.
 
-Logaritmização: Uma transformação que ajusta os valores dos dados para uma escala diferente, útil para tornar os dados mais fáceis de trabalhar.
+**Logaritmização:** Uma transformação que ajusta os valores dos dados para uma escala diferente, útil para tornar os dados mais fáceis de trabalhar.
 
-Normalização: Uma técnica que coloca os valores dos dados em uma faixa específica, para facilitar o treinamento de modelos.
+**Normalização:** Uma técnica que coloca os valores dos dados em uma faixa específica, para facilitar o treinamento de modelos.
 
-Função objetivo: Uma função que recebe um indivíduo e retorna o seu valor de aptidão.
+**Função objetivo:** Uma função que recebe um indivíduo e retorna o seu valor de aptidão.
 
-Minimização: Processo de encontrar o valor mínimo de uma função objetivo.
+**Minimização:** Processo de encontrar o valor mínimo de uma função objetivo.
 
-Indivíduo: Um candidato para a solução do problema.
+**Indivíduo:** Um candidato para a solução do problema.
 
-Gene: Um parâmetro que pertence a um indivíduo.
+**Gene:** Um parâmetro que pertence a um indivíduo.
 
-População: Um conjunto de candidatos para a solução do problema.
+**População:** Um conjunto de candidatos para a solução do problema.
 
-Geração: Cada população em busca genética. A primeira geração é aleatória, e as outras são formadas por seleção, cruzamento e mutação da geração anterior.
+**Geração:** Cada população em busca genética. A primeira geração é aleatória, e as outras são formadas por seleção, cruzamento e mutação da geração anterior.
 
-Seleção: Processo onde utiliza-se o valor de aptidão dos indivíduos para selecionar quais irão passar seus genes para a geração seguinte.
+**Seleção:** Processo onde utiliza-se o valor de aptidão dos indivíduos para selecionar quais irão passar seus genes para a geração seguinte.
 
-Cruzamento: Processo onde o material genético de indivíduos selecionados é misturado.
+**Cruzamento:** Processo onde o material genético de indivíduos selecionados é misturado.
 
-Mutação: Processo onde os genes dos indivíduos selecionados têm uma chance de alterar seu valor.
+**Mutação:** Processo onde os genes dos indivíduos selecionados têm uma chance de alterar seu valor.
 
-Hall da Fama: Conjunto dos n indivíduos que obtiveram os melhores valores de aptidão durante o processo de busca.
+**Hall da Fama:** Conjunto dos n indivíduos que obtiveram os melhores valores de aptidão durante o processo de busca.
 
 
 

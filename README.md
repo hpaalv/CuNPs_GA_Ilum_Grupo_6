@@ -105,6 +105,8 @@ Para automatizar processos na interface do usuário, foi implementada uma ferram
 
 # Metodologia
 
+## Tratamento de Dados
+
 Inicialmente, procedeu-se com a importação das bibliotecas necessárias e dos dados, os quais foram baixados na referência [1], foram carregados em um Dataframe da biblioteca Pandas e aplicado o método "dropna" - Responsável por remover as linhas que contêm valores ausentes (NaN) do DataFrame [7] . Essa etapa visava preparar o terreno para uma análise e predição, com dados relevantes. Além disso um documento contendo os significados e as unidades de cada atributo está presente neste diretório para aqueles que desejam entender melhor os dados aplicados no projeto. 
 
 Durante a análise detalhada, identificou-se que o conjunto continha muitos dados e grande parte deles eram valores nulos, por isso a implementação do método "dropna" foi necessária. Os dados restantes foram divididos entre features e targets, cujos targets são os valores de energia total e energia de formação das nanopartículas de cobre, e após em treino e teste. As porcentagens usadas como parâmetros para tal atividade foram definidas como 90% para treino e 10% para teste, com a semente aleatória sendo 10. A semente aleatória é um número utilizado para inicializar o gerador de números aleatórios garantindo que os resultados de operações que envolvem aleatoriedade possam ser reproduzíveis.[8]
@@ -119,9 +121,17 @@ O VIF implementado no código presente neste repositório foi disponibilizado pe
 
 O algoritmo realiza uma seleção de variáveis com base no VIF. Ele recebe um array NumPy e uma lista contendo os dados e os nomes das variáveis independentes, respectivamente. Possui também um limite máximo para o VIF. Variáveis com VIF maior que esse valor serão removidas e armazenadas numa lista. O processo segue até que todas as variáveis tenham um VIF abaixo do limite especificado. Por fim, a função retorna os dados das variáveis independentes atualizadas, a lista atualizada de nomes de variáveis e a lista de variáveis removidas. O código dele se encontra no script.
 
+## Rede Neural MLP
+
 Em seguida foi realizada a MLP [5]. O Multilayer Perceptron (MLP) é um tipo de rede neural artificial composta por várias camadas, incluindo uma camada de entrada, uma ou mais camadas ocultas e uma camada de saída. Cada camada é formada por neurônios interconectados, cada um com sua própria função de ativação e viés.[10] 
 
-Como o desejado era fazer uma comparação entre diferentes arquiteturas desse modelo de predição para encontrar o qual possui os melhores valores de hiperparâmetro, logo melhor valor de métrica, foi variado no modelo o tipo de função de ativação (Sigmoid, Tanh ou ReLU), o tipo de otimizador (L-BFGS, SGD ou Adam), quantidade de neurônios (de 1 a 20) em 2 camadas fixas. OBS1: Se encontra no script as funções que geram aleatoriamente o número de neurônios, o tipo de otimizador e tipo de função de ativação. OBS2: Diferencial sobre cada tipo de função e otimizador mais detalhado no Notebook Jupyter.
+## Algoritmo Genético
+
+Como o desejado era fazer uma comparação entre diferentes arquiteturas desse modelo de predição para encontrar o qual possui os melhores valores de hiperparâmetro, o Algoritmo Genético foi utilizado para verificar o melhor valor da métrica. Com isso, foi variado no modelo o tipo de função de ativação (Sigmoid, Tanh ou ReLU), o tipo de otimizador (L-BFGS, SGD ou Adam), quantidade de neurônios (de 1 a 20) em 2 camadas fixas. 
+
+***Obs.1: Se encontra no script as funções que geram aleatoriamente o número de neurônios, o tipo de otimizador e tipo de função de ativação.***
+
+***Obs.2: Diferencial sobre cada tipo de função e otimizador mais detalhado no Notebook Jupyter.***
 
 Com os hiperparâmetros definidos para a Rede Neural, agora inicia-se o código para a implementação do Algoritmo Genético de forma a solucionar nosso problema de otimização. Para isso, criou-se quatro variáveis, uma para armazenar todos os hiperparâmetros (a rede sem si) obtidos, outra que armazena todos os valores do MSE obtidos [12] (métrica adotada pelo grupo), uma para o Hall da Fama exibindo a melhor Rede Neural predita e outra para o Hall da Fama exibindo o melhor RMSE obtido (Hall do RMSE). Assim, sempre que uma nova rede fosse criada, o melhor valor do RMSE dessa rede é comparado com o armazenado na variável fixa, caso esse valor fosse menor que o armazenado, ele o substitui. Assim, a rede com o valor menor também substitui a rede já colocada na variável que armazena os hiperparâmetros.
 
